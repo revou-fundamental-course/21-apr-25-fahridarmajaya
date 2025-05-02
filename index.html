@@ -22,27 +22,75 @@
          <!-- Form Konversi Suhu-->
           <form>
             <div>
-                <label for="konversi-input">Celcius (C):</label>
+                <label for="konversi-input">Celcius (&deg;C):</label>
             </div>
 
             <div>
                 <textarea id="konversi-input"></textarea>
             </div>
+
+            <!-- Form Action -->
+            <div>
+                <button>Konversi</button>
+                <button>Reset</button>
+                <button>Reverse</button>
+            </div>  
           </form>
 
         <!-- Hasil Konversi Suhu -->
-         <section></section>
+         <section>
+            <div>
+                <label for="result-input">Fahrenhet (&deg;F):</label>
+            </div>
+
+            <div>
+                <textarea id="result-input" readonly></textarea>
+            </div>
+         </section>
 
         <!-- Penjelasan -->
-         <section></section>
+         <section>
+            <div>
+                <label for="calculate-detail">Cara Kalkulasi:</label>
+            </div>
+
+            <div>
+                <textarea id="calculate-detail" readonly></textarea>
+            </div>
+         </section>
 
         <!-- Informasi Tambahan -->
-         <section></section>
+         <section>
+            <header>
+                <h1>Cara Konversi Dari (&deg;C) ke Fahrenheit (&deg;F)</h1>
+            </header>
+
+            <hr/>
+
+            <article>
+                <!-- Konten Informasi -->
+                <p>Suhu <span class="formula">S</span> dalam derajat Fahrenheit (&deg;F)</p>
+
+                <!-- Formula -->
+                <div class="formula">
+                    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32
+                </div>
+                <div>
+                    atau
+                </div>
+
+                <div class="formula">
+                    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 1,8) + 32
+                </div>
+            </article>
+
+         </section>
+         <br/>
      </main>
 
      <!-- Footer Content-->
       <footer>
-
+        Copyright &#169; Fahrial Akmal - Revo U Fundamental Course 2025
       </footer>
 </body>
 </html>
